@@ -1,6 +1,10 @@
 .header {
     font-family: cursive;
     color: rgb(228, 130, 18);
+    background-color: rgb(9, 177, 228);
+    padding: 30px;
+    border: 2px solid black;
+    text-align: center;
 }
 
 .common {
