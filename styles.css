@@ -1,14 +1,29 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
 .header {
     font-family: cursive;
     color: rgb(228, 130, 18);
-    background-color: rgb(9, 177, 228);
-    padding: 30px;
-    border: 2px solid black;
+    background-color: rgba(58, 172, 238, 0.904);
+    padding: 20px;
+    border: 10px inset rgb(0, 0, 0);
     text-align: center;
+    margin-bottom: 25px;
 }
 
-.common {
+.img {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title {
     color: rgb(241, 123, 12);
+    text-align: center;
 }
 
 .blocks {
